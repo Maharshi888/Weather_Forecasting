@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #dde3ea;
+    color: #333;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .enter-city {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin: 30px 0 0;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 0 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    font-size: 16px;
+  }
+  
+  .search-btn {
+    padding: 12px 20px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .nav-links {
+    margin: 20px 0;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+  }
+  
+  .nav-links a:nth-child(3) {
+    color: #1976d2;
+  }
+  
+  .weather-card {
+    background: #fff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 30px;
+    max-width: 600px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  .weather-icon {
+    width: 100px;
+    margin: 20px 0;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .card-details div {
+    flex: 1 1 150px;
+    margin: 20px 10px;
+  }
+  
+  .card-details h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-details .value {
+    color: #555;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .card-details .value_speed {
+    color: #555;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .subtext {
+    color: #555;
+    font-size: 26px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    
+  }
+  
+  
